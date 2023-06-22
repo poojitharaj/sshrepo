@@ -1,0 +1,66 @@
+pipeline {
+    agnet any
+
+    stages{
+
+        stage('build') {
+            steps {
+
+            }
+
+        }
+
+        stage('test') {
+            steps {
+                
+            }
+
+        }
+
+        stage('sonar qube analysis') {
+            steps {
+                
+            }
+
+        }
+        
+        stage('publisg to artifactory') {
+            steps {
+                
+            }
+
+        }
+
+        stage('deploy to dev') {
+            steps {
+                
+            }
+
+        }
+
+        stage('deploy to test') {
+            steps {
+                
+            }
+
+        }
+
+        stage('deploy to stage') {
+            steps {
+                
+            }
+
+        }
+
+        stage('deploy to production') {
+            steps {
+                
+            }
+
+        }
+
+
+
+    
+    }
+}
